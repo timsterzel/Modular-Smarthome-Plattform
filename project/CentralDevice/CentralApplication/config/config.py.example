@@ -1,0 +1,14 @@
+# General
+VERBOSE = True
+# Only lower case and underscore allowed
+COMMUNICATION_MODULES_TO_LOAD = [ "esp_wifi_communicator" ]
+# When a custom script is defined for a specific device (by decive id) the gicen script is executed
+# whenever data is send by the device, the defined script is called with high priority
+# The script has to be executeable and the an interpreted has to be defined in script
+REGISTERED_SCRIPT_EVENT_CALLS = {
+    # device_id: path to script
+}
+
+# API Server
+HOSTNAME = "localhost"
+PORT = 6363

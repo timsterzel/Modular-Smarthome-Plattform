@@ -1,0 +1,4 @@
+HOST="http://localhost"
+PORT="6363"
+DEVICE_ID="ESP Barometer 1"
+EMAIL=""

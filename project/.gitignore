@@ -1,0 +1,22 @@
+# Tmp files
+*.temp
+
+# Others
+*.vim
+*.swp
+*.cpp.swp
+*.swo
+*.txt~
+*~
+*.d
+.vimrc
+.nvimrc
+.~lock.*
+*.tmp
+
+# Specific
+*config.h
+.vscode/
+*.log
+*.ini
+config.sh
